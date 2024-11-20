@@ -1,0 +1,28 @@
+{
+  "name": "citations chuck norris",
+  "short_name": "chuck norris",
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon/web-app-manifest-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#ff0000",
+  "background_color": "#a17272",
+  "display": "standalone"
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citations Chuck Norris</title>
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="chuck norris" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" href="/favicon/favicon.ico?v=2" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            /*background-color: white;*/
+            background-image: url('/favicon/web-app-manifest-512x512.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        }
+
+        h1 {
+            text-align: center;
+            color: #000000;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        #citations-list {
+            margin-top: 20px;
+        }
+
+        .citation-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #000000;
+            border-radius: 8px;
+            background-color: #948383;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .citation-item p {
+            margin: 5px 0;
+            line-height: 1.5;
+        }
+
+        .citation-item strong {
+            color: #0006b1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Citations Chuck Norris</h1>
+        <section>
+            <form id="citation-form">
+                <label for="auteur">Auteur:</label>
+                <input type="text" id="auteur" name="auteur">
+                <label for="citation">Citation:</label>
+                <textarea id="citation" name="citation"></textarea>
+                <button type="submit" id="add-citation">Ajouter une citation</button>
+            </form>
+        </section>
+        <section>
+            <button id="show-citations">Montrer les citations</button>
+            <div id="citations-list"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
