@@ -10,7 +10,7 @@
 
 <h1>Création base de données</h1>
 
--- 1. Créer une base de données nommée `citation_db`.
+-- 1. Créer une base de données nommée `chuck_citation`.
 CREATE DATABASE chuck_citation;
 
 -- 2. Créer un utilisateur avec un mot de passe sécurisé.
